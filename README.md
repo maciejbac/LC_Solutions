@@ -1,5 +1,5 @@
 # LC_Solutions
-My solutions to leetcode.com problems
+This repository contains my solutions to leetcode.com problems.
 
 |problem|description|
 |---|---|
