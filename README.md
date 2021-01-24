@@ -1,2 +1,2 @@
 # LC_Solutions
-my solutions to leetcode problems
+My solutions to leetcode.com problems
