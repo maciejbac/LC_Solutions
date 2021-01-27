@@ -8,4 +8,4 @@ This repository contains my solutions to leetcode.com problems.
 |[roman_to_integer](roman_to_integer.py)|Convert roman numerals to decimal|
 |[two_sum](two_sum.py)|Take an array of numbers and a target number, and determine if any pair of numbers add up to the target|
 |[valid_parentheses](valid_parentheses.py)|Verify if the input parentheses string is valid|
-|[merge_two_sorted_lists](merge_two_sorted_lists.py)|Merge two sorted lists into one|
+|[merge_two_sorted_lists](Merge_Two_Sorted_Lists.py)|Merge two sorted lists into one|
