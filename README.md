@@ -10,3 +10,4 @@ This repository contains my solutions to leetcode.com problems.
 |[valid_parentheses](valid_parentheses.py)|Verify if the input parentheses string is valid|
 |[merge_two_sorted_lists](Merge_Two_Sorted_Lists.py)|Merge two sorted lists into one|
 |[longest_common_prefix](longest_common_prefix.py)|Find the longest common prefix in an array of strings|
+|[remove_element](remove_element.py)|Remove elements from a list|
