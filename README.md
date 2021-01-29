@@ -12,3 +12,4 @@ This repository contains my solutions to leetcode.com problems.
 |[longest_common_prefix](longest_common_prefix.py)|Find the longest common prefix in an array of strings|
 |[remove_element](remove_element.py)|Remove elements from a list|
 |[insert_position](insert_position.py)|Insert a number in the correct spot in the array|
+|[length_of_last_word](length_of_last_word.py)|Return the length of the last word in a string|
