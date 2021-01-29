@@ -5,5 +5,5 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        while val in nums:
+        while val in nums: # Remove elements of value val as long as they exist in the List nums
             nums.remove(val)
