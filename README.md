@@ -13,3 +13,4 @@ This repository contains my solutions to leetcode.com problems.
 |[remove_element](solutions/remove_element.py)|Remove elements from a list|
 |[insert_position](solutions/insert_position.py)|Insert a number in the correct spot in the array|
 |[length_of_last_word](solutions/length_of_last_word.py)|Return the length of the last word in a string|
+|[remove_duplicates_from_sorted_array](solutions/remove_duplicates_from_sorted_array.py)|Remove duplicate entries from a sorted array of integers|
