@@ -15,3 +15,4 @@ This repository contains my solutions to leetcode.com problems.
 |[length_of_last_word](solutions/length_of_last_word.py)|Return the length of the last word in a string|
 |[remove_duplicates_from_sorted_array](solutions/remove_duplicates_from_sorted_array.py)|Remove duplicate entries from a sorted array of integers|
 |[implement_strStr()](solutions/implement_strstr.py)|Return the index of the first letter of string 'needle' if it's found in 'haystack'|
+|[plus_one](solutions/plus_one.py)|Increment an array by 1 as if it was an integer, then return the complete array|
