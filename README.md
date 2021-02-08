@@ -17,3 +17,4 @@ This repository contains my solutions to leetcode.com problems.
 |[implement_strStr](solutions/implement_strstr.py)|Return the index of the first letter of string 'needle' if it's found in 'haystack'|
 |[plus_one](solutions/plus_one.py)|Increment an array by 1 as if it was an integer, then return the complete array|
 |[sqrt](solutions/sqrt.py)|Implement sqrt() function|
+|[add_binary](solutions/add_binary.py)|Binary number addition|
