@@ -18,3 +18,4 @@ This repository contains my solutions to leetcode.com problems.
 |[plus_one](solutions/plus_one.py)|Increment an array by 1 as if it was an integer, then return the complete array|
 |[sqrt](solutions/sqrt.py)|Implement sqrt() function|
 |[add_binary](solutions/add_binary.py)|Binary number addition|
+|[maximum_subarray](solutions/maximum_subarray.py)| Find the length of the highest sum subarray within a given array of ints|
