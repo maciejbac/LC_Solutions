@@ -7,17 +7,18 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """        
-        maxSoFar = -10000
-        maxEndingHere = 0
+        maxFound = -100000
+        maxHere = 0
         
         for i in range(len(nums)):
-            maxEndingHere = maxEndingHere + nums[i]
+            maxHere = maxHere + nums[i]
 
-            if maxSoFar < maxEndingHere:
-                maxSoFar = maxEndingHere
+            if maxFound < maxHere:
+                maxFound = maxHere
                 
-            if maxEndingHere < 0:
-                maxEndingHere = 0
+            if maxHere < 0:
+                maxHere = 0
                 
-        return maxSoFar
+        return maxFound
+            
             
