@@ -20,9 +20,11 @@ class Solution(object):
         :rtype: int
         """        
         
-        if n <= 3:
+        if n <= 3: # Below n = 3, fibonnaci sequence returns the same value as the n so no calculations required
             return n
         
+        # the number of combinations for n is the same as (n-1) + (n-2)
+        # Recursively calculate the number of combinations for n-1 and n-2 
         total = self.climbStairs(n - 1) + self.climbStairs(n - 2)
         
         return total
