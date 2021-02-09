@@ -1,4 +1,4 @@
-# WIP - NOT FINISHED
+# WIP - NOT FINISHED, TOO SLOW FOR LEETCODE AND TIMES OUT
 
 class Solution(object):
     def climbStairs(self, n):
