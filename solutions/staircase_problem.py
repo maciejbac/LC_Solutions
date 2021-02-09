@@ -19,12 +19,12 @@ class Solution(object):
         :type n: int
         :rtype: int
         """        
-        def fibonacci(n):
+        def ways(n):
             if n <= 1:
                 return n
         
-            return fibonacci(n-1) + fibonacci(n-2)
+            return ways(n-1) + ways(n-2)
         
-        return fibonacci(n + 1)
+        return ways(n + 1)
         
       
