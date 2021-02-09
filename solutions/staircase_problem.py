@@ -19,12 +19,10 @@ class Solution(object):
         :type n: int
         :rtype: int
         """        
-        def ways(n):
-            if n <= 1:
-                return n
         
-            return ways(n-1) + ways(n-2)
+        if n <= 3:
+            return n
         
-        return ways(n + 1)
+        total = self.climbStairs(n - 1) + self.climbStairs(n - 2)
         
-      
+        return total
