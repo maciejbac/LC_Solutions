@@ -7,9 +7,6 @@ class Solution(object):
         maxSoFar = -10000
         maxEndingHere = 0
         
-        if len(nums) == 1:
-            return nums[0]
-        
         for i in range(len(nums)):
             maxEndingHere = maxEndingHere + nums[i]
 
