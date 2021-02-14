@@ -13,14 +13,15 @@ class Solution(object):
         """
         
         
-        if p is None and q is None:
+        if p is None and q is None: # Check if both binary trees are empty
             return True
         
-        if p is None or q is None:
+        if p is None or q is None: # Check if trees are unbalances, i.e. if p has a value where q doesn't
             return False
         
-        if p.val != q.val:
+        if p.val != q.val: # Compare the numerical values of both trees
             return False
         
-        if self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right):
-            return True
+        if self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right):   # Recursively call the function to check all
+            return True                                                             # corresponding tree nodes until an exception
+                                                                                    # is found or the tree is depleted
