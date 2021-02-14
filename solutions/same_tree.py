@@ -25,3 +25,6 @@ class Solution(object):
         if self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right):   # Recursively call the function to check all
             return True                                                             # corresponding tree nodes until an exception
                                                                                     # is found or the tree is depleted
+
+            
+            # Todo: remove the amount of if's, I feel like I should be able to condense the code more
