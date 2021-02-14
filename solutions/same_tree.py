@@ -28,3 +28,7 @@ class Solution(object):
 
             
             # Todo: remove the amount of if's, I feel like I should be able to condense the code more
+
+            
+            # TIL: != is not 'is not'. 'is not' != '!='.
+            # https://realpython.com/python-is-identity-vs-equality/
