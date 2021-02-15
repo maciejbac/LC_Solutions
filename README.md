@@ -22,3 +22,4 @@ This repository contains my solutions to leetcode.com problems.
 |[staircase_problem](solutions/staircase_problem.py)|Find the number of possible combinations of steps (1 and 2 stair) required to climb a staircase n high|
 |[remove_duplicates_from_sorted_list](solutions/remove_duplicates_from_sorted_list.py)|Remove duplicate entries from a sorted list|
 |[same_tree](solutions/same_tree.py)|Compare two binary trees to check if they're the same tree|
+|[maximum_depth_of_binary_tree](solutions/maximum_depth_of_binary_tree.py)|Find the maximum depth of a binary tree|
