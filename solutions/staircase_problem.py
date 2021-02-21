@@ -28,3 +28,7 @@ class Solution(object):
         total = self.climbStairs(n - 1) + self.climbStairs(n - 2)
         
         return total
+
+    
+    
+    # Seems like recursive approach isn't working out here, need to refactor it and try sequential 
