@@ -29,3 +29,6 @@ class Solution(object):
                              + 1
      (d) Return max_depth
         """
+
+        
+        # Todo: turn the algorithm into code
