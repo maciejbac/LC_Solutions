@@ -33,10 +33,7 @@ class Solution(object):
         
         return maxDepth(root)
     
-    
-    
-        ##### RETURNS WRONG VALUE, NEEDS LOOKING INTO
-        
+            
         """
         1. If tree is empty then return 0
         2. Else
