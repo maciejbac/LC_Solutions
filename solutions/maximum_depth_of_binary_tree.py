@@ -12,8 +12,30 @@ class Solution(object):
         """
         
         
+        def maxDepth(node):
+            if node is None:
+                return -1 ; 
+ 
+            else:
+                lDepth = maxDepth(node.left)
+                rDepth = maxDepth(node.right)
+ 
+                if (lDepth > rDepth):
+                    return lDepth+1
+                else:
+                    return rDepth+1
+ 
+        root = TreeNode(1)
+        root.left = TreeNode(2)
+        root.right = TreeNode(3)
+        root.left.left = TreeNode(4)
+        root.left.right = TreeNode(5)
         
-        
+        return maxDepth(root)
+    
+    
+    
+        ##### RETURNS WRONG VALUE, NEEDS LOOKING INTO
         
         """
         1. If tree is empty then return 0
@@ -32,3 +54,4 @@ class Solution(object):
 
         
         # Todo: turn the algorithm into code
+
