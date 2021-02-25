@@ -1,3 +1,5 @@
+# Problem solved by the iterative method here:
+# https://github.com/macko939/LC_Solutions/blob/main/solutions/staircase_problem_iterative.py
 # Resources:
 """
 Remember the formula: ways(n) = ways(n-1) + ways(n-2)
