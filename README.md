@@ -19,7 +19,7 @@ This repository contains my solutions to leetcode.com problems.
 |[sqrt](solutions/sqrt.py)|Implement sqrt() function|
 |[add_binary](solutions/add_binary.py)|Binary number addition|
 |[maximum_subarray](solutions/maximum_subarray.py)|Find the length of the highest sum subarray within a given array of ints|
-|[staircase_problem (recursive)](solutions/staircase_problem_recursive.py)|Find the number of possible combinations of steps (1 and 2 stair) required to climb a staircase n high|
+|[staircase_problem (recursive)](solutions/staircase_problem_recursive.py)|Find the number of possible combinations of steps required to climb a staircase n steps tall|
 |[staircase_problem (iterative)](solutions/staircase_problem_iterative.py)|Another, more successful and faster solution to the staircase problem|
 |[remove_duplicates_from_sorted_list](solutions/remove_duplicates_from_sorted_list.py)|Remove duplicate entries from a sorted list|
 |[same_tree](solutions/same_tree.py)|Compare two binary trees to check if they're the same tree|
