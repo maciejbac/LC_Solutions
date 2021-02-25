@@ -1,5 +1,3 @@
-# WIP - NOT FINISHED, TOO SLOW FOR LEETCODE AND TIMES OUT
-
 # Resources:
 """
 Remember the formula: ways(n) = ways(n-1) + ways(n-2)
