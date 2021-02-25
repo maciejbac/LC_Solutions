@@ -32,3 +32,4 @@ class Solution(object):
     
     
     # Seems like recursive approach isn't working out here, need to refactor it and try sequential 
+    # Update: Solved with the sequential method here: # https://github.com/macko939/LC_Solutions/blob/main/solutions/staircase_problem_iterative.py
