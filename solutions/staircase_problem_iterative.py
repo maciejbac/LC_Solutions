@@ -13,7 +13,7 @@ class Solution(object):
             nextB = a + b       # Calculate the value of the next step of the fibbonaci sequence.
             
             a = b               # Rearrange variables to allow the calculation of the next step in the fibonacci sequence               
-            b = nextB           #
+            b = nextB           
                 
         return b
         
