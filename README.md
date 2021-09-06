@@ -4,7 +4,7 @@ This repository contains my python_solutions to leetcode.com problems.
 ## Golang Solutions
 |problem|description|
 |---|---|
-|[two_sum](golang_solutions_solutions/two_sum.go)|Take an array of numbers and a target number, and determine if any pair of numbers add up to the target|
+|[two_sum](golang_solutions/two_sum.go)|Take an array of numbers and a target number, and determine if any pair of numbers add up to the target|
 
 ## Python Solutions
 |problem|description|
