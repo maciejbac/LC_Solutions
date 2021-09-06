@@ -1,6 +1,7 @@
 # LC_Solutions
 This repository contains my python_solutions to leetcode.com problems.
 
+## Python Solutions
 |problem|description|
 |---|---|
 |[palindrome_number](python_solutions/palindrome_number.py)|Determine if a number is a palindrome|
