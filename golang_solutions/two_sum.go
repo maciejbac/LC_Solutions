@@ -6,7 +6,7 @@ import "fmt"
 func main() {
 
 	// Call my function with test values
-	var res = twoSum([]int{1, 3, 5, 8, 9}, 10)
+	var res = twoSum([]int{0, 1, 3, 5, 8, 9}, 10)
 
 	// Display the results
 	fmt.Println(res)
@@ -16,17 +16,15 @@ func main() {
 // Dummy function for now
 func twoSum(nums []int, target int) []int {
 
-	// Declare a new map of integers
-	numsMap := make(map[int]int)
-
-	for i, num := range nums {
-
-		if idx, ok := numsMap[target-num]; ok {
-			return []int{idx, i}
+	// Nested for loop to iterate through the array twice and compare the numbers if they are a match
+	for i := 0; i < len(nums); i++ {
+		// Advance the iterator by 1 to avoid comparing a number to itself
+		for j := i + 1; j < len(nums); j++ {
+			// If a match is found, return an array that contains the indexes of the found numbers
+			if nums[i]+nums[j] == target {
+				return []int{i, j}
+			}
 		}
-
-		numsMap[num] = i
 	}
-
-	return []int{0, 0}
+	return nil
 }
