@@ -1,4 +1,4 @@
-# Recursive method can be found here: https://github.com/macko939/LC_Solutions/blob/main/solutions/staircase_problem.py
+# Recursive method can be found here: https://github.com/maciejbac/LC_Solutions/blob/main/solutions/staircase_problem.py
 
 class Solution(object):
     def climbStairs(self, n):
